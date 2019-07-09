@@ -104,7 +104,7 @@ namespace SendDelayedEmail.Controllers
             smtp.Port = 25;
             smtp.UseDefaultCredentials = false;
             smtp.Credentials = new System.Net.NetworkCredential
-            ("satyendra.sharma.cse@gmail.com", "YOUme99!!");//your Smtp Email ID and Password
+            ("your_email_id", "password");//your Smtp Email ID and Password
             smtp.EnableSsl = true;
             try
             {
